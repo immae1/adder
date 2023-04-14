@@ -1,0 +1,21 @@
+# Adder
+
+Simple adder project to learn go-lang
+
+## Makefile
+
+$ make addercli
+
+ build binary:
+ *go build -o addercli cmd/addercli/main.go*
+
+$ make clean
+
+  will remove the binary
+  *rm -f addercli*
+
+## Adder usage
+
+./addercli -h for help
+./addercli -a 1
+./addercli -a 2 -b 3
